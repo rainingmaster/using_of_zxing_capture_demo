@@ -5,5 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="ref">此处返回扫描获得URL</string>
     <string name="to_scan">点击扫描</string>
+    <string name="to_create">创建二维码</string>
 
 </resources>

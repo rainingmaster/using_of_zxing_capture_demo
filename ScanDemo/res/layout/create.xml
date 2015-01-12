@@ -10,22 +10,21 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity" >
 
-    <Button
-         android:id="@+id/to_create"
+    <EditText
+         android:id="@+id/create_url"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/to_create" />
 
     <Button
-         android:id="@+id/to_scan"
+         android:id="@+id/create"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/to_scan" />
+        android:text="@string/to_create" />
 
-    <TextView
-         android:id="@+id/ref_url"
+    <ImageView
+         android:id="@+id/ref_image"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ref" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

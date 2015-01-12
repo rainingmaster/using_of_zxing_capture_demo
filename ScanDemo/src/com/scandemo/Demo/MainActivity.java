@@ -27,6 +27,14 @@ public class MainActivity extends Activity {
 				startActivityForResult(intent, 0);
 			} 
 		});
+		Button create = (Button) findViewById(R.id.to_create);
+		create.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, CreateImageActivity.class);
+				startActivityForResult(intent, 1);
+			} 
+		});
 	}
 
 	@Override
